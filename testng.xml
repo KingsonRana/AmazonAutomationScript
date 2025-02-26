@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="2"   name="All Test Suite">
+    <test name="AmazonAutomation">
+        <classes>
+            <class name="Tests.LogInTest">
+                <methods>
+                    <include name="invalidEmail"/>
+                    <include name="invalidEmailFormat"/>
+                    <include name="emptyEmail"/>
+                    <include name="validEmail"/>
+                    <include name="inValidPassword"/>
+                    <include name="emptyPassword"/>
+<!--                    <include name="accountLockTest"/>-->
+                    <include name="restartAndValidPasswordTest"/>
+                </methods>
+            </class>
+            <class name="Tests.SearchSortFilterProductTest">
+                <methods>
+                    <include name="logIn"/>
+                    <include name="search"/>
+                    <include name="sortBy"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
