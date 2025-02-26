@@ -7760,3 +7760,67 @@ Session ID: 24d70b6bcce08b0fe8f37f3ab751ea90
 2025-02-25 23:03:14 [main] INFO  LoggerUtil - 3076
 2025-02-25 23:03:15 [main] INFO  LoggerUtil - Closed the browser
 2025-02-25 23:03:15 [main] INFO  LoggerUtil - Test Execution Completed. Report Generated.
+2025-02-26 11:07:53 [main] INFO  LoggerUtil - Invalid Email Test
+2025-02-26 11:07:53 [main] INFO  LoggerUtil - Entering username: invali12347edshb@gmail.com
+2025-02-26 11:07:53 [main] INFO  LoggerUtil - Clicking continue button
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=133.0.6943.128)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//span[contains(text(),'We cannot find an account with that email address')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - false
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Called new account check
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//h1[contains(text(),'Looks like you are new to Amazon')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Logging in with Email : validCred1@gmail.com and Password : validPassword
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Entering username: validCred1@gmail.com
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//input[contains(@name, 'email') and contains(@id, 'ap_email') ], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Entering password: validPassword
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//input[contains(@name, 'password') and contains(@id, 'ap_password') ], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Search for product Samsung
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//input[contains(@id,'twotabsearchtextbox') and contains(@placeholder,'Search Amazon.in')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Sorting by Price: Low to High
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//select[contains(@id,'s-result-sort-select') and contains(@name,'s')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - number of items0
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - Sorting by Price: High to Low
+2025-02-26 11:07:57 [main] ERROR LoggerUtil - invalid session id
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3a7c17d0e6f3102f99948c39855b88c1, findElement {value=//select[contains(@id,'s-result-sort-select') and contains(@name,'s')], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.128, chrome: {chromedriverVersion: 133.0.6943.126 (cffa127ce7b..., userDataDir: C:/Users/SSC/AppData/Local/...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50443}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50443/devtoo..., se:cdpVersion: 133.0.6943.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3a7c17d0e6f3102f99948c39855b88c1
+2025-02-26 11:07:57 [main] INFO  LoggerUtil - number of items0
