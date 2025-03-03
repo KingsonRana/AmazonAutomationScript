@@ -61,7 +61,7 @@ mvn test
 The user credentials need to be provided in **TestDataProvider.java** for successful login execution.
 
 ## 📌 Future Enhancements
-- Add more test cases (checkout, add to cart, etc.)
+- Add more test cases (Filter, checkout, add to cart, etc.)
 - Implement cross-browser testing
 
 ## 🐝 License
